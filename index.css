@@ -1,0 +1,564 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.navbar{
+
+    background-color:rgba(41, 9, 9, 0.695);
+    height:6vh;
+    width: ;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+   
+    gap: 50px;
+    justify-content: center;
+    position: fixed;
+   
+    width: 100vw;
+    
+    
+
+}
+
+
+.menu{
+    background-color:rgba(41, 9, 9, 0.695);
+   
+    height:6vh;
+    width: ;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    position: fixed;
+   
+     
+    visibility: hidden;
+}
+
+
+
+
+.navbar .nav-item{
+   list-style-type: none;
+   
+
+}
+
+.nav-item .nav-link{
+    text-decoration: none;
+    color: aliceblue;
+    font-size:150%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+
+.navbar .nav-link,
+.navbar .nav-link:focus {
+	color: white;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+	color: #4EA7FF;
+}
+
+/* nav bar end */
+
+
+
+/* intro start */
+.tm-intro {
+	background: url(./IMAGES/home-bg.jpg) no-repeat;
+	background-attachment: fixed;
+	background-position: left top;
+	background-size: 120% 750px;
+	color: white;
+	display: flex;
+	        flex-direction: column;
+	
+	        align-items: center;
+	
+	        justify-content: center;
+	height: 750px;	
+}
+
+.main-logo-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+   gap:10px;
+}
+
+
+.tm-site-name{
+    font-size: 50px;
+    align-self: center;
+}
+
+.tm-intro-text{
+    font-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.tm-begin {	
+	border: 2px solid white;
+    text-decoration: none;
+	border-radius: 50px;
+	color: white;
+	display: inline-block;
+    padding: 15px 60px;  
+    align-self: center;  
+}
+
+.tm-begin:hover,
+.tm-begin:focus {
+	color: black;
+	background-color: white;
+}
+
+@media screen and (min-width:0px) and (max-width:576px){
+
+    .navbar .nav-item{
+       visibility: hidden;
+
+    }
+
+    .menu{
+        visibility: visible;
+    }
+
+ 
+
+
+}
+
+
+
+/* intro end */
+
+
+/* NEWS ITEAMS  */
+
+
+.tm-news-item{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.firstdiv{
+    padding: 20px;
+display: flex;
+    
+   
+  
+
+}
+
+
+
+     
+
+
+
+.tm-news-title { 
+    color: grey;
+    font-weight: 300;
+    margin-bottom: 30px; 
+}
+
+
+.tm-matter-news1{
+    color:gray;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    /* width:40vw; */
+    height:43vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  
+    
+
+   
+    
+}
+
+.tm-news-text{
+    line-height: 1.8; 
+
+}
+
+.btn1{
+    background-color: aliceblue;
+    border-color:rgb(12, 197, 185);
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
+   
+  
+   
+
+}
+
+.button{
+    
+
+  
+    color: aqua;
+    text-decoration: none;
+}
+
+
+
+@media screen and (min-width:0) and (max-width:576px){
+
+
+
+
+.tm-news-item{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.firstdiv{
+    padding: 20px;
+display: flex;
+flex-direction: column;
+
+    
+   
+  
+
+}
+
+.tm-matter-news1{
+    color:gray;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    width:40vw;
+    height:80vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+   box-sizing:border-box ;
+    gap: px;
+  
+    
+
+   
+    
+}
+
+
+.tm-news-image{
+    width: 75vw;
+}
+
+
+.btn1{
+    background-color: aliceblue;
+    border-color:rgb(12, 197, 185);
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+   
+  
+   
+
+}
+
+}
+
+
+/* new items end */
+
+
+
+.Gallery-heading h1{
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+    
+        color: aqua;
+        
+
+    
+
+
+}
+
+.Gallery-heading p{
+    color:grey;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+
+
+.Gallery-photos{
+    padding: 20px;
+    display: grid;
+    grid-template-areas: "area1 area2 area3 area4"
+    "area5 area6 area7 area8" "area9 area10 area11 area12";
+}
+.Gallery-photos img {
+	width:100%;
+	height: auto;
+}
+
+.img1{
+    
+    grid-area: area1;
+}
+
+.img2{
+    /* width:50%; */
+    grid-area: area2;
+}
+
+
+
+.img3{
+    /* width:50%; */
+    grid-area: area3;
+}
+
+.img4{
+    /* width:50%; */
+    grid-area: area4;
+}
+
+
+.img5{
+    /* width:50%; */
+    grid-area: area5;
+}
+
+.img6{
+    /* width:50%; */
+    grid-area: area6;
+}
+
+
+.img7{
+    /* width:50%; */
+    grid-area: area7;
+}
+
+
+
+.img8{
+    /* width:50%; */
+    grid-area: area8;
+}
+
+
+.img9{
+    /* width:50%; */
+    grid-area: area9;
+}
+
+
+.img10{
+    /* width:50%; */
+    grid-area: area10;
+}
+
+.img11{
+    /* width:50%; */
+    grid-area: area11;
+}
+
+.img12{
+    /* width:50%; */
+    grid-area: area12;
+}
+
+
+
+
+
+@media screen and (min-width:0px) and (max-width:576px){
+
+
+    .Gallery-photos{
+        padding: px;
+        display: grid;
+        
+        grid-template-areas: "area1 area2"
+        "area3 area4 " "area5 area6" "area7 area8" "area9 area10" "area11 area12";
+        
+    }
+
+
+
+
+
+}
+
+
+/* contact us */
+
+
+
+.last-div{
+
+ 
+    background-color: rgba(128, 128, 128, 0.71);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:100px;
+   justify-content: center;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  
+  .input1{
+    width:250px;
+    padding: 10px;
+  }
+  
+  .input2{
+    width:530px;
+    padding: 10px;
+  }
+  
+  
+  .textarea{
+    width:530px;
+    height: 200px;
+    padding: 10PX;
+  }
+  
+  .submit{
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    color: aqua;
+    border-color: aqua;
+    position: relative;
+    left: 430px;
+  }
+  
+  
+  .details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+
+  @media screen and (min-width:0px) and (max-width:576px)
+  {
+
+
+ .form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+  }
+  
+  .input1{
+    width:90%;
+    padding: 10px;
+  }
+  
+  .input2{
+    width:150%;
+    padding: 10px;
+  }
+  
+  
+  .textarea{
+    width:150%;
+    height: 200px;
+    padding: 10PX;
+  }
+  
+  .submit{
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    color: aqua;
+    border-color: aqua;
+    position:relative;
+    left:95px;
+  
+  }
+  
+  
+
+ 
+  .details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+
+
+
+  }
+
+
+  /* the end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
