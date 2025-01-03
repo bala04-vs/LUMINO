@@ -75,10 +75,10 @@
 }
 
 
-.nav-item:hover{
+/* .nav-item:hover{
     transform: scale(2,2);
     transition-duration:2s;
-}
+} */
 /* nav bar end */
 
 
@@ -156,7 +156,7 @@
     }
 
 
-   .menu~.navbar:hover .nav-item{
+   .menu:hover ~ .navbar .nav-item{
     visibility: visible;
 
    }
